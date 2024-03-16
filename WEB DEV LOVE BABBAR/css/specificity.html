@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* by using important specificity can be changed */
+            /*  use !important after color */
+            /* Hierchirchy low->high 
+                tag
+                class
+                key
+                inline css
+                important
+            */
+            color: pink ;  
+            font-size: larger;
+        }
+        .CLASS{
+            color:  green;
+            background-color: rgb(31, 219, 53);
+            font-size: large;
+        }
+        #ID{
+            color: red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <p class="CLASS" id="ID" style="color: orange;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quis illo, odio, harum maxime in pariatur doloribus aperiam error, ea asperiores earum magnam ad dolorem ratione reprehenderit adipisci sapiente alias!</p>
+</body>
+</html>

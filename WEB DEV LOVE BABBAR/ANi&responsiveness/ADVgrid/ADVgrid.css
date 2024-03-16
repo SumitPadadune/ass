@@ -1,0 +1,22 @@
+.container{
+
+    height: 700px;
+    border-color: red;
+    background-color: yellow;
+    display: grid;
+ 
+    grid-gap: 10px;
+    text-align: center;
+    /* grid-auto-rows: minmax(100px,200px); */
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+   
+
+}
+.box{
+    
+    border: 1px solid green;
+    background-color: aqua;
+ 
+
+}

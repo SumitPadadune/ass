@@ -1,0 +1,19 @@
+ .box{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 500px;
+    /* Jithe jayche ahe ti direction */
+    background-image: linear-gradient(to right bottom,orange,white,green);
+    text-align: center;
+    background-image: linear-gradient(to left,rgb(255, 0, 0,0),rgba(0,0,255,1),red );
+ }
+ .mydiv{
+    border:1px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    background-image: radial-gradient(circle,green,white,orange)
+
+ }

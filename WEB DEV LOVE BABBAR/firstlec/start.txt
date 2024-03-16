@@ -1,0 +1,18 @@
+HTML Hyper text markup language
+markup annotations are used for content 
+HTML is not programming lang it is markup lang
+hyper text one page is linked to another page
+HTML Skeleton CSS Formatting/appearance
+JS Functionaltity
+tag tells browser to render different elements
+tag 
+Opening tah
+closing tagcontent
+HTML text elements
+
+BLOCK elements para heading list(unord ordered)
+(article) (section)
+
+Inline element em strong a
+
+  

@@ -1,0 +1,18 @@
+div{
+    margin: 10vw;
+    /* display: inline-block; */
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}
+.translated{
+    /* position: relative; */
+    transform: perspective(15px) translateZ(-45px);
+    
+
+}
+.scaled{
+    transform: perspective(350px) scaleZ(6) rotateY(45deg) ;
+}

@@ -1,0 +1,69 @@
+.container{
+    height: 400px;
+    border: 3px solid orange;
+    box-shadow: -5px -5px 8px rgb(247, 158, 242),8px 8px 10px rgb(243, 3, 119);
+    display: flex;
+    /* flex-direction: row;  by default column for flex*/
+    flex-wrap: Nowrap;
+    flex-direction: column;
+    /* Nowrap */ 
+    /* flex direction and wrap=flex flow  */
+    /* justify-content: flex-start;
+    justify-content: center; */
+
+    /* justify-content: flex-start; all items comes to start */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-end; all items comes to end */
+    /* Equal spacing between items */
+     /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;  */
+    
+    /* evenly right left space same */
+     /* align-items: flex-end; */
+    /* align-items:flex-start; */
+    /*  align items:centre All content at centere of page along vertical axis */
+    /* ALign along vertical axis */
+    /* align-items: stretch;  */
+    /* align-items: baseline;  */
+    /* Text la same line var align karayla */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    /* align-content: flex-start; */
+    /* align-content: flex-end;  */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    /* gap: 10px;  */
+
+     /* Flex ORDER */
+    /* align-items: center; */
+    /* gap: 10px; */
+    
+}
+.box{
+    border: 1px solid brown;
+    background-color: rgb(251, 220, 225);
+    flex-basis: 50%;
+    /* When Multiple lines are written aand overflow happens then flex-basis */
+    
+    flex-grow: 1;
+}
+#box1{
+    /* order:1; */
+    flex-grow: 1;
+    flex-shrink: 4;
+    /* align-self: flex-start; */
+    /* shrink will shrink that box with faster rate */
+}
+#box3{
+    /* order:1; */
+    flex-grow: 1;
+    /* align-self: flex-end; */
+    /* ALIGN SELF aligns elements at respective flex positions */
+}
+#box2{
+    /* order: 1; */
+    /* align-self: stretch; */
+}

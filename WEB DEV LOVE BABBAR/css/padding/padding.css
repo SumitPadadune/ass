@@ -1,0 +1,25 @@
+/* Universal selector */
+*{
+    box-sizing: border-box;
+    /* By using box sizing width of box becomes constant
+    after padding also remailns sanme */
+    margin:0;
+}
+body{
+    background-color: skyblue;
+}
+.container{
+    background-color: orange;
+    border: 3px solid black;
+    /* padding: 20px; */
+    /* we can set padding for top bottom left and right  */
+    /* padding-left: 50px;
+    padding-bottom: 50px; */
+    /* Set at a time for all */
+    /*padding top right bottom left */
+    /* padding: 23px 56px 6px 78px; */
+    padding: 20px 100px;
+    margin: 35px;
+    border-radius: 23px;
+    width: 1080px; 
+}

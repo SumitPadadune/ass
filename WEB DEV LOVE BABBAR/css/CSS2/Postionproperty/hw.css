@@ -1,0 +1,31 @@
+/* #m{
+    position: absolute;
+    left: 100;
+    top: 50vw;
+    bottom:100vw;
+} */
+#m{
+    overflow-x: hidden;
+    position:absolute;
+    left: 50vw;
+    top: 50vw;
+
+}
+#lb{
+    overflow-x: hidden;
+    position: absolute;
+    top: 100vw;
+    height: auto;
+}
+#rb{
+    overflow: hidden;
+    position: absolute;
+    top: 100vw;
+    left: 100vw;
+    height: auto;  
+}
+#r{
+    overflow-x: hidden;
+    position: absolute;
+    left: 100vw;
+}

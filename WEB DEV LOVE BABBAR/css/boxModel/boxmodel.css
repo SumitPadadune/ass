@@ -1,0 +1,17 @@
+.box{
+    height:100px;
+    width:100px;
+    border: 1px solid black;
+    background-color: aqua ;
+    margin: 10px;
+    /* padding-left: 2cm; */
+}
+#org{
+    background-color: orange;
+}
+#grn{
+    background-color: green;
+}
+#wst{
+    background-color: white;
+}

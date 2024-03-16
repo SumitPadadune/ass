@@ -1,0 +1,14 @@
+h1{
+    text-shadow: 2px 2px 3px red;
+    /* Horizontal vertical blureffect color */
+    text-shadow:  2px 2px 3px red,3px 3px 3px green;
+}
+.box{
+    text-shadow: 2px 2px 3px red;
+    /* border-radius: 10px; */
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    box-shadow: -5px -5px 8px gold,8px 8px 10px gold;
+    /* box-shadow: -5px -5px 1px black,5px 5px 1px black; */
+}

@@ -1,0 +1,32 @@
+.container{
+    border: 1px solid brown;
+    background-color: yellow;
+    height: 700px;
+    width: 6 00px;
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+    /* justify-content: center;
+    justify-content: space-evenly;   */
+    /* align-content: center;
+    align-content: space-around; */
+    /* align-items: center;
+    align-items: baseline;
+    align-items: stretch; */
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+#box1{
+    justify-self:center;
+    align-self: center;
+    /* SPecific to that box */
+}
